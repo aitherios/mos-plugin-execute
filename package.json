@@ -1,5 +1,5 @@
 {
-  "name": "mos-plugin-process-output",
+  "name": "mos-plugin-execute",
   "version": "1.0.0",
   "description": "Mos plugin to inline a process output",
   "files": [
@@ -19,23 +19,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/team-767/mos-plugin-process-output"
+    "url": "https://github.com/team-767/mos-plugin-execute"
   },
   "keywords": [
     "mos-plugin",
-    "process-output",
+    "execute",
     "markdown"
   ],
   "author": "Renan Mendes Carvalho <aitherios@gmail.com> (https://github.com/aitherios)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mosjs/mos/issues"
+    "url": "https://github.com/team-767/mos-plugin-execute/issues"
   },
-  "homepage": "https://github.com/mosjs/mos/tree/master/packages/mos-plugin-example#readme",
+  "homepage": "https://github.com/team-767/mos-plugin-execute",
   "dependencies": {
-    "babel-runtime": "^6.9.0",
-    "codemo": "^0.2.1",
-    "independent": "^0.2.0"
+    "babel-runtime": "^6.9.0"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",

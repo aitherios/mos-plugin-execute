@@ -1,8 +1,8 @@
 'use strict'
 module.exports = plugin
 
-const createProcessOutputRenderer = require('./create-process-output-renderer')
+const createExecuteRenderer = require('./create-execute-renderer')
 
 function plugin (mos, markdown) {
-  mos.scope.processOutput = createProcessOutputRenderer(markdown)
+  mos.scope.processOutput = createExecuteRenderer()
 }

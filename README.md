@@ -1,5 +1,5 @@
 <!--@'# ' + pkg.name-->
-# mos-plugin-process-output
+# mos-plugin-execute
 <!--/@-->
 
 <!--@'> ' + pkg.description-->
@@ -7,13 +7,13 @@
 <!--/@-->
 
 <!--@shields.flatSquare('npm')-->
-[![npm version](https://img.shields.io/npm/v/mos-plugin-process-output.svg?style=flat-square)](https://www.npmjs.com/package/mos-plugin-process-output)
+[![npm version](https://img.shields.io/npm/v/mos-plugin-execute.svg?style=flat-square)](https://www.npmjs.com/package/mos-plugin-execute)
 <!--/@-->
 
 ## Installation
 
 ```sh
-npm install --save mos mos-plugin-process-output
+npm install --save mos mos-plugin-execute
 ```
 
 ## Usage
@@ -24,20 +24,20 @@ This mos plugin will execute the supplied command and inject it's output.
 In the current `README.md` we have this code snippet:
 
 ```md
-<!--@processOutput('echo', ['works'])-->
+<!--@execute('echo', ['works'])-->
 <!--/@-->
 ```
 
 It produces this code block:
 
-<!--@processOutput('echo', ['works'])-->
-```js
+<!--@execute('echo', ['works'])-->
+```
 works
 ```
 
 ## API
 
-- `processOutput(command, args)`
+- `execute(command, args)`
 
 ## License
 
