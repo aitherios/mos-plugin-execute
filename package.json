@@ -1,6 +1,6 @@
 {
   "name": "mos-plugin-execute",
-  "version": "1.0.1-2",
+  "version": "1.0.1-3",
   "description": "Mos plugin to inline a process output",
   "files": [
     "src/",
