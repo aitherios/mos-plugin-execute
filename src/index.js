@@ -8,5 +8,5 @@ function plugin (mos, markdown) {
 }
 
 plugin.attributes = {
-  pkg: require('../package.json')
+  pkg: require('../package.json'),
 }
