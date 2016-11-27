@@ -12,6 +12,6 @@ module.exports = () => {
     cmd.stderr.on('data', data => { output += `${data}` })
     cmd.on('close', () => resolvePromise())
 
-    return promise.then(() => '```\n' + output + '```')
+    return promise.then(() => '```default\n' + output + '```')
   }
 }

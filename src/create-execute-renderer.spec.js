@@ -11,7 +11,7 @@ describe('createExecuteRenderer', () => {
     return renderer('node', ['-e', '"console.log(\'test\')"'])
       .then(actual => {
         expect(actual).to.eq([
-          '```',
+          '```default',
           'test',
           '```',
         ].join('\n'))
