@@ -31,7 +31,7 @@ In the current `README.md` we have this code snippet:
 It produces this code block:
 
 <!--@execute('echo', ['works'])-->
-```
+```default
 works
 ```
 
